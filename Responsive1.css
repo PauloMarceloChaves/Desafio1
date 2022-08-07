@@ -1,0 +1,111 @@
+/* Tablet pag 1 */
+@media(max-width: 768px){  
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .cabeçalho{
+        max-width: 595px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+        padding-top: 61px;
+    }
+
+    .cabeçalho-menu{
+        display: flex;
+    }
+
+    .conteudo{
+        max-width: 595px;
+        margin: 0 auto;
+        padding: 55px 0 39px 0;
+    }
+
+    .conteudo-principal-imagem{
+        display: none;
+    }
+
+    .conteudo-secundario{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 38px 0;
+    }
+
+    .rodape{
+        width: 100%;
+        margin: 0 auto;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Especial - Resolução entre 515 e 360*/
+@media(max-width: 514px) and (min-width: 361px){
+    .conteudo-secundario{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 38px 0;
+        justify-content: center;
+    }
+}
+
+/* Celular pag 1 */
+@media(max-width: 360px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100%;
+        font-size: 100%;
+        margin: 0 auto;
+    }
+    
+    .cabeçalho{
+        display: flex;
+        flex-direction: column;
+        width: 155px;
+        justify-content: center; 
+        align-items: center;
+        padding-top: 58px;
+        gap: 22px;
+    }
+
+    .cabeçalho-menu{
+        display: flex;
+        flex-direction: column;
+        width: 155px;
+        gap: 22px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        justify-content: center;
+    }
+
+    .conteudo-secundario{
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape{
+        width: 100%;
+        margin: 0 auto;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+    }
+}
